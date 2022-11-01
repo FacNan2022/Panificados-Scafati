@@ -1,0 +1,23 @@
+   
+.encabezado{
+    align-items: center;
+    background-color: blanchedalmond;
+    border-bottom: solid #808080;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.encabezado img {
+    border-radius: 20px;
+    width: 200px;
+  
+}
+
+.encabezado__botones{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 300px;
+}
+

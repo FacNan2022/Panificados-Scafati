@@ -1,0 +1,22 @@
+.mapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mapa__titulo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.mapa p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: 4rem;
+}
+
+
