@@ -6,6 +6,9 @@
     display: flex;
     justify-content: space-between;
     height: 100px;
+    position: fixed;
+    z-index:2;
+    width: 100%;
 }
 
 .encabezado img {
