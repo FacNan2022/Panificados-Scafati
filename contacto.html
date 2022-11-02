@@ -6,53 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactos</title>
-    <link rel="stylesheet" href="./contacto.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
-        Contactate con nostros
+        <section class="encabezado">
+            <img src="./imagen/logoTipo.png" alt="">
+            <ul class="encabezado__botones">
+                <li class="encabezado__botones__items"><a href="./index.html">Inicio</a></li>
+                <li class="encabezado__botones__items"><a href="#">Productos</a></li>
+                <li class="encabezado__botones__items"><a href="../Panificados-Scafati/contacto.html">Contactos</a></li>
+            </ul>
+        </section>
 
     </header>
     <main>
+        <div class="informacion">
+            <form action="" class="formulario">
+                <h1>Contactate con nosotros</h1>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Nombre" class="input-padron" required>
 
-        <h1>Contactate con nosotros</h1>
-        <form action="" class="formulario">
+                <label for="apellido">Apellido</label>
+                <input class="input-padron" type="text" id="apellido" placeholder="Apellido" required>
 
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" placeholder="Nombre" class="input-padron" required>
+                <label for="telefono">Telefono</label>
+                <input class="input-padron" type="text" id="telefono" placeholder="Telefono" required>
 
-            <label for="apellido">Apellido</label>
-            <input class="input-padron" type="text" id="apellido" placeholder="Apellido" required>
+                <label for="email"> Email</label>
+                <input class="input-padron" type="text" id="email" placeholder="Email" required>
 
-            <label for="telefono">Telefono</label>
-            <input class="input-padron"  type="text" id="telefono" placeholder="Telefono" required>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" cols="50" rows="10" placeholder="Ingresa tu mensaje"></textarea>
 
-            <label for="email"> <input class="input-padron" type="text" id="email" placeholder="Email" required>Email</label>
-         
-
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" cols="50" rows="10" placeholder="Ingresa tu mensaje"></textarea>
-
-            <h2>¿Como queres que te contactemos?</h2>
-            <ul class="formulario__contacto">
-                <li class="formulario__contacto-items">
-                    <label for="radio-telefono"><input type="radio" value="telefono" id="radio-telefono">Telefono</label>
+                <h2>¿Como queres que te contactemos?</h2>
+                <ul class="formulario__contacto">
+                    <li class="formulario__contacto-items">
+                        <label for="radio-telefono"><input type="radio" value="telefono"
+                                id="radio-telefono">Telefono</label>
                     </li>
-                
-                    <li class="formulario__contacto-items"> <label for="radio-email"><input type="radio" value="email" id="radio-telefono">Email</label></li>
-                        
-                <li class="formulario__contacto-items">
 
-                    <label for="radio-whatsap"><input type="radio" value="whatsap" id="radio-telefono">Whatsap</label>
+                    <li class="formulario__contacto-items"> <label for="radio-email"><input type="radio" value="email"
+                                id="radio-telefono">Email</label></li>
+
+                    <li class="formulario__contacto-items">
+
+                        <label for="radio-whatsap"><input type="radio" value="whatsap"
+                                id="radio-telefono">Whatsap</label>
                     </li>
-                
+                    <ul>
+                        <input type="submit">
 
-             
-            <ul>
-            <input type="submit">
+            </form>
+        </div>
 
-        </form>
+
+        <div class="imagen">
+            <img src="./imagen/logotipo-panaderia3.png" alt="">
+        </div>
     </main>
     <footer>
 
