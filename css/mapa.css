@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 .mapa__titulo{
     align-items: center;
@@ -10,6 +11,10 @@
     display: flex;
     margin-top: 15px;
     font-weight: bold;
+}
+
+.mapa__contenido iframe{
+    border: 2px solid #808080;
 }
 
 .mapa p{

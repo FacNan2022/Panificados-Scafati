@@ -1,0 +1,12 @@
+.pedidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pedidos h3{
+    align-items: center;
+    justify-content: center;
+
+}

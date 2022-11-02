@@ -33,7 +33,12 @@
 .sobreNosotros__imagen img{
     border-radius: 20px;
     box-shadow: 10px 10px 30px 15px #000000;
+    transition: 400ms;
     width: 400px;
     height: 550px;
-   
+      
+}
+
+.sobreNosotros__imagen img:hover{
+    opacity: 0.7;
 }
