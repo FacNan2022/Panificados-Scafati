@@ -31,16 +31,6 @@
 
    }
 
-.encabezado__botones{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    width: 300px;
-    position: relative;
-    right:0px;
-}
-
-
    .encabezado__botones {
        display: flex;
        list-style: none;
@@ -52,14 +42,12 @@
        top:0;
    }
 
+
    #iniciar-sesion {
        padding: 5px;
    }
 
-   #iniciar-sesion {
-    border-bottom: inherit;
-   }
-
+ 
    .encabezado__botones__items a {
        font-family: 'Raleway', sans-serif;
        text-decoration: none;
@@ -82,3 +70,4 @@
        background-color: lightseagreen;
 
    }
+
