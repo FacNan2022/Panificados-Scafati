@@ -1,15 +1,22 @@
+
 body{
     background-color: darkkhaki;
 }
-.banner {
-    align-items: center;
-    margin: 0px auto;
-    width: 700px;
-    position: relative;
-    overflow: hidden;
+body {
+    background-color: blanchedalmond;
+
 }
 
-.banner__capa{
+.banner {
+    align-items: center;
+    position: relative;
+    margin: 0px auto;
+    width: 700px;
+    overflow: hidden;
+   
+}
+
+.banner__capa {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
@@ -18,15 +25,14 @@ body{
     width: 100%;
     position: absolute;
     height: 700px;
-   
+
 }
 
 .banner__lista {
     list-style: none;
-    width:100%;
+    width: 100%;
     display: flex;
     animation: slide 20s infinite alternate;
-
 
 }
 
@@ -44,6 +50,7 @@ body{
     0% {
         margin-left: 0px;
     }
+
     20% {
         margin-left: 0px;
     }
@@ -52,6 +59,7 @@ body{
     25% {
         margin-left: -700px;
     }
+
     45% {
         margin-left: -700px;
     }
@@ -60,6 +68,7 @@ body{
     50% {
         margin-left: -1400px;
     }
+
     70% {
         margin-left: -1400px;
     }
@@ -68,17 +77,16 @@ body{
     75% {
         margin-left: -2100px;
     }
+
     100% {
         margin-left: -2100px;
     }
 
 }
 
-#logoTipo{
+#logoTipo {
     bottom: 45px;
     position: absolute;
     width: 730px;
     z-index: 1;
-   
-
 }
