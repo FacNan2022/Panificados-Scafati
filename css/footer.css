@@ -1,14 +1,38 @@
-.footer{
-    background-color: khaki;
+.footer {
+    align-items: center;
+    background: url(../imagen/footer.jpg) no-repeat center / cover;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
 }
 
-footer{
+.footer__lista {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.footer__lista__redesSociales img {
+    width: 50px;
     text-align: center;
-    background: url();
-    padding: 40px; 
 }
 
-.copyright{
+.footer__whatsap {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    bottom: 178px;
+}
+
+.whatsap {
+    margin: 0px 20px;
+}
+
+.copyright {
+    color: darkgoldenrod;
     font-size: 13px;
     margin: 20px;
 }
