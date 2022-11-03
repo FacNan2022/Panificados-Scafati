@@ -1,4 +1,3 @@
-
 .footer {
     align-items: center;
     background: url(../imagen/footer.jpg) no-repeat center / cover;
@@ -29,8 +28,14 @@
     bottom: 178px;
 }
 
+
 .whatsap {
     margin: 0px 20px;
+}
+
+.whatsap:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .copyright {
