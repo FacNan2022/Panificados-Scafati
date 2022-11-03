@@ -11,18 +11,7 @@
        z-index: 2;
    }
 
-   
-.encabezado{
-    align-items: center;
-    background-color: blanchedalmond;
-    border-bottom: solid #808080;
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    position:fixed;
-    width: 100%;
-    z-index:2;
-}
+ 
 
 
    .encabezado img {
